@@ -2,7 +2,6 @@ import React from 'react'
 import Sten1 from '../images/s-20.webp'
 import Noteten from '../images/note10.png'
 import Stwenty from '../images/s20-ultra.webp'
-import Zflip from '../images/z-flip.webp'
 import Zflip1 from '../images/zflip.png'
 import StenLite from '../images/s10-lite.png'
 import useWebAnimations, {fadeInDown} from "@wellyshen/use-web-animations";
