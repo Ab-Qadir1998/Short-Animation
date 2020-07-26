@@ -1,38 +1,78 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.hero {
+  background: url('./images/curve.svg') no-repeat center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+  position: relative;;
+}
+.hero div {
+  width: 45%;
+}
+
+.hero img {
+  width: 100%;
+}
+.hero-text h2{
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+.left-p,.right-p{
+  width: 22%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-p img,.right-p img {
+  width:100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-p div ,.right-p div {
+  background: rgb(241, 240, 240);
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  /* height: 250px; */
+  /* width: 100%; */
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.center-p {
+  width: 45%;
+  background: rgb(241, 240, 240);
+  text-align: center;
+  height: 53  0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.center-p img {
+  width: 100%;
 }
